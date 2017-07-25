@@ -4,7 +4,7 @@
   "description": "Transform wav to lyrics",
   "main": "index.js",
   "scripts": {
-    "test": "standard && ava -v"
+    "test": "standard && ava -v -s"
   },
   "repository": {
     "type": "git",
