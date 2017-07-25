@@ -2,6 +2,7 @@
 
 const test = require('ava')
 const Wav2Lrc = require('./')
+
 const {
   AIP_ID,
   AIP_KEY,
@@ -21,6 +22,8 @@ test('Initialize Wav2Lrc', t => {
     apiKey: wav2lrc.apiKey,
     secretKey: wav2lrc.secretKey
   }
-  const should = PULL_REQUEST_FROM_FORKED ? {appId: '', apiKey: '', secretKey: ''} : {appId: AIP_ID, apiKey: AIP_KEY, secretKey: AIP_SECRET}
+  const should = PULL_REQUEST_FROM_FORKED
+    ? {appId: '', apiKey: '', secretKey: ''}
+    : {appId: AIP_ID, apiKey: AIP_KEY, secretKey: AIP_SECRET}
   t.deepEqual(result, should)
 })
