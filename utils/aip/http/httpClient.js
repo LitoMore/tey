@@ -64,7 +64,7 @@ class HttpClient extends EventEmitter {
     }
 }
 
-HttpClient.DEFAULT_TIMEOUT = 10000;
+HttpClient.DEFAULT_TIMEOUT = 30000;
 
 HttpClient.EVENT_DATA = 'data';
 
