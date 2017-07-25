@@ -2,7 +2,7 @@
 
 const AipSpeech = require('../utils/aip').speech
 
-class Wav2Lrc {
+class Tey {
   constructor (options) {
     options = options || {}
     this.appId = options.appId || ''
@@ -13,4 +13,4 @@ class Wav2Lrc {
   }
 }
 
-module.exports = Wav2Lrc
+module.exports = Tey

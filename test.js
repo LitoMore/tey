@@ -1,7 +1,7 @@
 'use strict'
 
 const test = require('ava')
-const Wav2Lrc = require('./')
+const Tey = require('./')
 
 const {
   AIP_ID,
@@ -11,16 +11,16 @@ const {
 
 const PULL_REQUEST_FROM_FORKED = !(AIP_ID && AIP_KEY && AIP_SECRET)
 
-test('Initialize Wav2Lrc', t => {
-  const wav2lrc = new Wav2Lrc({
+test('Tey', t => {
+  const tey = new Tey({
     appId: AIP_ID,
     apiKey: AIP_KEY,
     secretKey: AIP_SECRET
   })
   const result = {
-    appId: wav2lrc.appId,
-    apiKey: wav2lrc.apiKey,
-    secretKey: wav2lrc.secretKey
+    appId: tey.appId,
+    apiKey: tey.apiKey,
+    secretKey: tey.secretKey
   }
   const should = PULL_REQUEST_FROM_FORKED
     ? {appId: '', apiKey: '', secretKey: ''}

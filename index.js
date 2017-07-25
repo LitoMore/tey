@@ -1,3 +1,3 @@
 'use strict'
 
-module.exports = require('./src/wav2lrc')
+module.exports = require('./src/tey')

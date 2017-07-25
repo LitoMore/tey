@@ -1,5 +1,5 @@
 {
-  "name": "wav2lrc",
+  "name": "tey",
   "version": "0.0.1",
   "description": "Transform wav to lyrics",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LitoMore/wav2lrc.git"
+    "url": "git+https://github.com/LitoMore/tey.git"
   },
   "author": "LitoMore",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LitoMore/wav2lrc/issues"
+    "url": "https://github.com/LitoMore/tey/issues"
   },
-  "homepage": "https://github.com/LitoMore/wav2lrc#readme",
+  "homepage": "https://github.com/LitoMore/tey#readme",
   "dependencies": {
     "debug": "^2.6.0",
     "iconv-lite": "^0.4.15",
