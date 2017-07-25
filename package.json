@@ -1,0 +1,29 @@
+{
+  "name": "wav2lrc",
+  "version": "0.0.1",
+  "description": "Transform wav to lyrics",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LitoMore/wav2lrc.git"
+  },
+  "author": "LitoMore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LitoMore/wav2lrc/issues"
+  },
+  "homepage": "https://github.com/LitoMore/wav2lrc#readme",
+  "dependencies": {
+    "debug": "^2.6.0",
+    "iconv-lite": "^0.4.15",
+    "request": "^2.79.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "standard": "^10.0.2"
+  }
+}
