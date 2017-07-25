@@ -1,6 +1,5 @@
 'use strict'
 
-const fs = require('fs')
 const AipSpeech = require('../utils/aip').speech
 
 class Wav2Lrc {
