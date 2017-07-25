@@ -1,9 +1,17 @@
 'use strict'
 
-const {
-  APP_ID,
-  API_KEY,
-  SECRET_KEY
-} = require('../config')
+const fs = require('fs')
+const AipSpeech = require('../utils/aip').speech
 
-const client = new AipVoice(APP_ID, API_KEY, SECRET_KEY)
+class Wav2Lrc {
+  constructor (options) {
+    options = options || {}
+    this.appId = options.appId || ''
+    this.apiKey = options.apiKey || ''
+    this.secretKey = options.secretKey || ''
+
+    this.speech = new AipSpeech(this.apiKey, this.apiKey, this.secretKey)
+  }
+}
+
+module.exports = Wav2Lrc

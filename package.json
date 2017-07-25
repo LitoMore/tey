@@ -25,5 +25,10 @@
   "devDependencies": {
     "ava": "^0.21.0",
     "standard": "^10.0.2"
+  },
+  "standard": {
+    "ignore": [
+      "utils/aip/"
+    ]
   }
 }
